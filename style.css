@@ -1,0 +1,436 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  h1{
+    text-align: center;
+			color: rgb(240, 17, 17);
+			font-size: 36px;
+			font-family: Arial, sans-serif;
+  }
+
+  /* Style the main content */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  ul {
+    list-style: disc;
+    margin-left: 20px;
+  }
+  
+  
+  
+  /* Style the footer */
+  footer {
+    background-color: #eee;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+  }
+  .navbar {
+    width: 100%;
+    background-color: rgb(64, 68, 64);
+    overflow: auto;
+    border-radius: 40px;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: rgb(4, 12, 3);
+  }
+  
+  /* Current/active navbar link */
+  .active {
+    background-color: #04AA6D;
+  }
+  
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+  .about{
+    background-color: yellowgreen;
+  }
+  .Stationery img{
+    width: 150px;
+    height: 150px;
+  }
+  .Stationery{
+    background-color: rgb(238, 255, 4);
+    margin: 10px;
+    padding: 0 7px 0 7px;
+     display: flex;
+     flex-direction:row;
+    
+  }
+  .channelfile{
+    display: block;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+  .mchannel{
+    width: 80px;
+  height: 50px;
+  background-color: rgb(254, 254, 254);
+  border: 5px solid rgb(11, 253, 136);
+  margin-top: 20px;
+
+  }
+  .fevistick{
+    display: block;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+  .mfevi{
+    width: 80px;
+  height: 50px;
+  background-color: rgb(254, 254, 254);
+  border: 5px solid rgb(11, 253, 136);
+  margin-top: 20px;
+
+  }
+  .bandaid{
+    display: block;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-align: justify;
+
+  }
+  .mband{
+    width: 80px;
+  height: 50px;
+  background-color: rgb(254, 254, 254);
+  border: 5px solid rgb(11, 253, 136);
+  margin-top: 20px;
+
+  }
+  .pen{
+    display: block;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+  .mpen{
+    width: 80px;
+  height: 50px;
+  background-color: rgb(254, 254, 254);
+  border: 5px solid rgb(11, 253, 136);
+  margin-top: 20px;
+
+  }
+  .mask{
+    display: block;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-align: justify;
+    align-items: center; /* Center child div horizontally */
+  justify-content: center; 
+  }
+  .mprice{
+    width: 80px;
+  height: 50px;
+  background-color: rgb(254, 254, 254);
+  border: 5px solid rgb(11, 253, 136);
+  margin-top: 20px;
+  
+  }
+  
+  .pencil{
+    display: block;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+  .mpencil{
+    width: 185px;
+    height: 50px;
+    background-color: rgb(254, 254, 254);
+    border: 5px solid rgb(11, 253, 136);
+    margin-top: 20px;
+
+  }
+  .Food{
+    background-color: rgb(254, 179, 4);
+    margin: 10px;
+    padding: 0 7px 0 7px;
+     display: flex;
+     flex-direction:row;
+  }
+  .Food img{
+    width: 150px;
+    height: 150px;
+  }
+  .Sanwich{
+    display: block;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-align: justify;
+
+  }
+  .msand{
+    width: 130px;
+    height: 50px;
+    background-color:rgb(254, 254, 254);
+    border: 5px solid rgb(238, 250, 5);
+    margin-top: 20px;
+
+  }
+  .vegSanwich{
+    display: block;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-align: justify;
+
+  }
+  .mvegsand{
+    width: 130px;
+    height: 50px;
+    background-color:rgb(254, 254, 254);
+    border: 5px solid rgb(238, 250, 5);
+    margin-top: 20px;
+
+
+  }
+  .chowmein{
+    display: block;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-align: justify;
+
+  }
+  .mchow{
+    width: 130px;
+    height: 50px;
+    background-color:rgb(254, 254, 254);
+    border: 5px solid rgb(238, 250, 5);
+    margin-top: 20px;
+
+  }
+  .fried{
+    display: block;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-align: justify;
+
+  }
+  .mfried{
+    width: 130px;
+    height: 50px;
+    background-color:rgb(254, 254, 254);
+    border: 5px solid rgb(238, 250, 5);
+    margin-top: 20px;
+
+
+  }
+  .chic65{
+    display: block;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-align: justify;
+
+  }
+  .mchic65{
+    width: 130px;
+    height: 50px;
+    background-color:rgb(254, 254, 254);
+    border: 5px solid rgb(238, 250, 5);
+    margin-top: 20px;
+
+  }
+  .biryani{
+    display: block;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-align: justify;
+
+  }
+  .mbiryani{
+    width: 130px;
+    height: 50px;
+    background-color:rgb(254, 254, 254);
+    border: 5px solid rgb(238, 250, 5);
+    margin-top: 20px;
+
+  }
+  .Beverages{
+    background-color: rgb(254, 108, 4);
+    margin: 10px;
+    padding: 0 7px 0 7px;
+     display: flex;
+     flex-direction:row;
+  }
+  .Beverages img{
+    width: 150px;
+    height: 150px;
+  }
+  .Tea{
+    display: block;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .mTea{
+    width: 130px;
+    height: 50px;
+    background-color: rgb(254, 254, 254);
+    border: 5px solid rgb(238, 250, 5);
+    margin-top: 20px;
+
+  }
+  .coffee{
+    display: block;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+  .mcoffee{
+    width: 130px;
+    height: 50px;
+    background-color: rgb(254, 254, 254);
+    border: 5px solid rgb(238, 250, 5);
+    margin-top: 20px;
+
+  }
+  .chocolates{
+    display: block;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+  .mchocolates{
+    width: 130px;
+    height: 50px;
+    background-color: rgb(254, 254, 254);
+    border: 5px solid rgb(238, 250, 5);
+    margin-top: 20px;
+
+  }
+  .Doublemint{
+    display: block;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+  .mdoublemint{
+    width: 130px;
+    height: 50px;
+    background-color: rgb(254, 254, 254);
+    border: 5px solid rgb(238, 250, 5);
+    margin-top: 20px;
+
+  }
+  .drinks{
+    display: block;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+  .mdrinks{
+    width: 130px;
+    height: 50px;
+    background-color: rgb(254, 254, 254);
+    border: 5px solid rgb(238, 250, 5);
+    margin-top: 20px;
+
+  }
+  .cup{
+    display: block;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+  .mcup{
+    width: 130px;
+    height: 50px;
+    background-color: rgb(254, 254, 254);
+    border: 5px solid rgb(238, 250, 5);
+    margin-top: 20px;
+
+  }
+  .Printservice{
+    background-color: rgb(4, 162, 254);
+    margin: 10px;
+    padding: 0 7px 0 7px;
+     display: flex;
+     flex-direction:row; 
+     
+  }
+  .Printservice img{
+    width: 150px;
+    height: 150px;
+
+  }
+  .Print{
+    display: block;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-align: justify;
+
+  }
+  .mprint{
+    width: 130px;
+    height: 50px;
+    background-color: rgb(254, 254, 254);
+    border: 5px solid rgb(238, 250, 5);
+    margin-top: 20px;
+
+  }
+  .IceCreame{
+    background-color: rgb(70, 41, 0);
+    margin: 10px;
+    padding: 0 7px 0 7px;
+     display: flex;
+     flex-direction:row; 
+     
+  }
+  .IceCreame img{
+    width: 150px;
+    height: 150px;
+
+  }
+  
+
+  
+  .fa {
+    color: rgb(244, 7, 7);
+  }
