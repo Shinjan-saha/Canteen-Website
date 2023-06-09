@@ -640,3 +640,14 @@ body {
     height: 50vmax;
   }
 }
+
+
+.about-img {
+  text-align: center;
+}
+
+.about-img img {
+  max-width: 100%;
+  height: auto;
+}
+
