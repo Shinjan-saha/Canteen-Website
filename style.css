@@ -16,6 +16,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+u { 
+  text-decoration: none; 
+  border-bottom: 2px solid rgb(170, 168, 168); 
+}​ 
 /* ///////////..utility classes../////////// */
 
 .container {
@@ -650,4 +654,5 @@ body {
   max-width: 100%;
   height: auto;
 }
+
 
