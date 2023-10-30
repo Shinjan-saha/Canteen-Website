@@ -10,4 +10,4 @@ This website gives info about the services provided by Techno main salt lake
 
 ## Download the App Over here 
 
-[Click-Here!]()
+[Click-Here!](https://github.com/Shinjan-saha/Canteen-Website/blob/main/canapp/canapp/App-release/app-release.apk)
