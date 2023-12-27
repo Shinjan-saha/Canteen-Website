@@ -10,11 +10,18 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   @override
-  Widget build(BuildContext context) {
+ Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        body: WebViewPlus(
-          initialUrl: 'assets/index.html',
+        body: Stack(
+          children: [
+            WebViewPlus(
+              javascriptMode: JavascriptMode.unrestricted,
+              initialUrl: 'https://canteen-website-shinjan.vercel.app/',
+             
+            ),
+           
+          ],
         ),
       ),
     );
