@@ -451,16 +451,18 @@ u {
   background: rgb(65, 65, 65);
 }
 /* ....../Location/ ......*/
-#location iframe {
-  margin-left: 400px;
-  width:40%;
-  margin-top: 5px;
-  
+#location{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-#location p{
-  margin-left: 5px;
-  margin-top: 2.5px;
-  margin-left: 400px;
+#location p {
+  margin-top: 3px;
+}
+#location iframe{
+  margin-top: 3px;
 }
 
 /* ......../ media query /.......... */
