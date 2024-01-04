@@ -16,10 +16,12 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-u { 
-  text-decoration: none; 
-  border-bottom: 2px solid rgb(170, 168, 168); 
-}​ 
+u {
+  text-decoration: none;
+  border-bottom: 2px solid rgb(170, 168, 168);
+}
+
+​
 /* ///////////..utility classes../////////// */
 
 .container {
@@ -111,10 +113,8 @@ u {
 
 .showcase-area {
   height: 50vh;
-  background: linear-gradient(
-      rgba(240, 240, 240, 0.144),
-      rgba(255, 255, 255, 0.336)
-    ),
+  background: linear-gradient(rgba(240, 240, 240, 0.144),
+      rgba(255, 255, 255, 0.336)),
     url("https://i.postimg.cc/wT3TQS3V/header-image2.jpg");
   background-size: cover;
   background-position: center;
@@ -305,13 +305,10 @@ u {
 
 .food-menu-item {
   display: flex;
-  flex: 1 1 600px;
+  flex: 1 1 400px;
   justify-content: space-evenly;
-  margin-bottom: 3rem;
-}
-
-.food-description {
-  margin: auto 1.5rem;
+  margin-bottom: 3rem; 
+  position: relative;
 }
 
 .font-title {
@@ -327,9 +324,30 @@ u {
 }
 
 .food-description .food-price {
-  color: #117964;
+  color: crimson;
   font-weight: 700;
 }
+.food-description {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  z-index: 2;
+  text-align: center;
+  transition: all 0.3s ease-in-out 0.1s;
+}
+
+.food-menu-item:hover::after {
+  opacity: 1;
+  transform: scaleY(1);
+}
+.food-menu-item:hover .food-description {
+  opacity: 1;
+  top: 40%;
+  backdrop-filter: blur(10px);
+}
+
 
 /* ........./ Testimonial /.......... */
 
@@ -450,18 +468,21 @@ u {
   color: #fff;
   background: rgb(65, 65, 65);
 }
+
 /* ....../Location/ ......*/
-#location{
+#location {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
+
 #location p {
   margin-top: 3px;
 }
-#location iframe{
+
+#location iframe {
   margin-top: 3px;
 }
 
@@ -556,19 +577,19 @@ u {
     font-size: 2rem;
   }
 
-  .navbar-container input[type="checkbox"]:checked ~ .menu-items {
+  .navbar-container input[type="checkbox"]:checked~.menu-items {
     transform: translateX(0);
   }
 
-  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+  .navbar-container input[type="checkbox"]:checked~.hamburger-lines .line1 {
     transform: rotate(35deg);
   }
 
-  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+  .navbar-container input[type="checkbox"]:checked~.hamburger-lines .line2 {
     transform: scaleY(0);
   }
 
-  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+  .navbar-container input[type="checkbox"]:checked~.hamburger-lines .line3 {
     transform: rotate(-35deg);
   }
 
@@ -668,5 +689,3 @@ u {
   max-width: 100%;
   height: auto;
 }
-
-
