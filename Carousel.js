@@ -27,5 +27,5 @@ function showSlides(n) {
 }
 let slideInterval = setInterval(function() {
     plusSlides(1); // Change the argument if you want to change the slide interval
-  }, 5000);
+  }, 2000);
   
