@@ -130,6 +130,7 @@ u {
   font-size: 1.6rem;
 }
 
+
 .main-title {
   text-transform: uppercase;
   margin-top: 1.5em;
@@ -331,11 +332,13 @@ u {
   position: absolute;
   top: 70%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  border-radius: 29px;
+  transform: translate(-50%, -30%);
   opacity: 0;
   z-index: 2;
   text-align: center;
   transition: all 0.3s ease-in-out 0.1s;
+  padding-bottom: 5px;
 }
 
 .food-menu-item:hover::after {
