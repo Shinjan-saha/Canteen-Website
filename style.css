@@ -130,6 +130,7 @@ u {
   font-size: 1.6rem;
 }
 
+
 .main-title {
   text-transform: uppercase;
   margin-top: 1.5em;
@@ -213,7 +214,7 @@ u {
   color: #555;
 }
 
-/* .food-container {
+.food-container {
   display: flex;
   justify-content: space-between;
 }
@@ -225,29 +226,11 @@ u {
   max-height: 300px;
   object-fit: cover;
   object-position: center;
-} */
-.slideshow-container {
-  /* display: flex; */
-  max-width: 800px;
-  margin: auto;
-  position: relative;
-
 }
 
 .img-container {
   margin: 0 1rem;
   position: relative;
-  text-align: center;
-
-}
-
-.img-container img {
-  width: 100%;
-  vertical-align: middle;
-}
-
-.mySlides {
-  display: none
 }
 
 .img-content {
@@ -281,6 +264,7 @@ u {
   background: rgba(0, 0, 0, 0.871);
   opacity: 0;
   z-index: 1;
+
   transform: scaleY(0);
   transform-origin: 100% 100%;
   transition: all 0.3s ease-in-out;
@@ -294,73 +278,6 @@ u {
 .img-container:hover .img-content {
   opacity: 1;
   top: 40%;
-}
-
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -30px;
-  color: red;
-  font-weight: bolder;
-  font-size: 30px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-.prev:hover,
-.next:hover {
-
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {
-    opacity: .4
-  }
-
-  to {
-    opacity: 1
-  }
-}
-
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active,
-.dot:hover {
-  background-color: #717171;
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-
-  .prev,
-  .next {
-    font-size: 11px
-  }
 }
 
 /* .........../Food Menu/............ */
@@ -391,7 +308,7 @@ u {
   display: flex;
   flex: 1 1 400px;
   justify-content: space-evenly;
-  margin-bottom: 3rem;
+  margin-bottom: 3rem; 
   position: relative;
 }
 
@@ -411,23 +328,23 @@ u {
   color: crimson;
   font-weight: 700;
 }
-
 .food-description {
   position: absolute;
   top: 70%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  border-radius: 29px;
+  transform: translate(-50%, -30%);
   opacity: 0;
   z-index: 2;
   text-align: center;
   transition: all 0.3s ease-in-out 0.1s;
+  padding-bottom: 5px;
 }
 
 .food-menu-item:hover::after {
   opacity: 1;
   transform: scaleY(1);
 }
-
 .food-menu-item:hover .food-description {
   opacity: 1;
   top: 40%;
@@ -674,23 +591,22 @@ u {
 
   /* ......./ food /......... */
 
-
-  /* .food-container {
+  .food-container {
     flex-direction: column;
-    align-items: center;
-  } */
+    align-items: stretch;
+  }
 
   .food-type:not(:last-child) {
     margin-bottom: 3rem;
   }
 
-  /* .food-type {
+  .food-type {
     box-shadow: 5px 5px 10px 0 #aaa;
-  } */
+  }
 
-  /* .img-container {
+  .img-container {
     margin: 0;
-  } */
+  }
 }
 
 @media (max-width: 500px) {
@@ -770,19 +686,18 @@ u {
   max-width: 100%;
   height: auto;
 }
-
 /*footer section*/
 #footer {
   background: #20bc7e;
-
+ 
   margin-top: 30px;
   padding: 40px 0;
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-
-  justify-content: center;
-  align-items: center;
-
+  border-radius: 10px; 
+  border: 1px solid rgba(255, 255, 255, 0.2); 
+  
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .footer-container {
@@ -791,7 +706,7 @@ u {
   align-items: center;
   flex-direction: column;
   text-align: center;
-
+  
 }
 
 .footer-logo img {
@@ -821,8 +736,7 @@ u {
   color: #fff;
   margin-right: 20px;
 }
-
-.footer-section p {
+.footer-section p{
   font-size: 14px;
   color: #fff;
 
@@ -845,86 +759,84 @@ u {
   text-align: center;
   padding: 10px 0;
 }
-
 .footer-bottom h2 {
   text-align: center;
   font-size: 1.5rem;
   padding: 2.6rem;
   font-weight: 500;
   color: #fff;
-
+  
 }
-
-.social-icons {
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
 }
-
-.social-icons li {
-  display: inline-block;
-  margin-bottom: 4px
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
 }
-
-.social-icons li.title {
-  margin-right: 15px;
-  text-transform: uppercase;
-  color: #f9f7f7;
-  font-weight: 700;
-  font-size: 13px
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#f9f7f7;
+  font-weight:700;
+  font-size:13px
 }
-
-.social-icons a {
-  background-color: #000000;
-  color: #d618e8;
-  font-size: 16px;
-  display: flex;
-  line-height: 44px;
-  width: 44px;
-  height: 44px;
+.social-icons a{
+  background-color:#000000;
+  color:#d618e8;
+  font-size:16px;
+  display: flex; 
+  line-height:44px;
+  width:44px;
+  height:44px;
   align-items: center;
   justify-content: center;
-  margin-right: 8px;
-  border-radius: 100%;
-  -webkit-transition: all .2s linear;
-  -o-transition: all .2s linear;
-  transition: all .2s linear
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
 }
 
-.social-icons a:active,
-.social-icons a:focus,
-.social-icons a:hover {
-  color: #fff;
-  background-color: #29aafe
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
 }
 
-.social-icons.size-sm a {
-  line-height: 34px;
-  height: 34px;
-  width: 34px;
-  font-size: 14px
-}
-
-.social-icons a.facebook:hover {
-  background-color: #3b5998
-}
-
-.social-icons a.twitter:hover {
-  background-color: #00aced
-}
-
-.social-icons a.linkedin:hover {
-  background-color: #007bb6
-}
-
-@media (max-width:767px) {
-  .social-icons li.title {
-    display: block;
-    margin-right: 0;
-    font-weight: 600
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
   }
 }
-
 @media screen and (max-width: 500px) {
   .footer-container {
     flex-direction: column;
@@ -946,5 +858,5 @@ u {
   .footer-bottom {
     padding: 0;
   }
-
+  
 }
