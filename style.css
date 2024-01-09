@@ -168,6 +168,11 @@ u {
   transform: translateX(150%);
   animation: about-img-animation 1s ease-in-out forwards;
 }
+.about-img img{
+    border-radius: 10px;
+    height:375px;
+    width:500px;
+}
 
 @keyframes about-img-animation {
   100% {
