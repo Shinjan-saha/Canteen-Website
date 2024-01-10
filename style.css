@@ -849,7 +849,13 @@ u {
   color: #fff;
   text-decoration: none
 }
-
+.footer-section ul li a:hover{
+  text-decoration: underline;
+  color: #ffffffc2;
+}
+.footer-logo{
+  margin-top: 10px;
+}
 .footer-bottom {
 
   text-align: center;
