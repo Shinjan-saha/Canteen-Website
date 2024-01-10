@@ -838,7 +838,9 @@ u {
 
 
 }
-
+.footer-logo{
+  margin-top: 10px;
+}
 .footer-section ul {
   list-style: none;
   padding: 0;
@@ -849,7 +851,10 @@ u {
   color: #fff;
   text-decoration: none
 }
-
+.footer-section ul li a:hover{
+  text-decoration: underline;
+  color: #ffffffb0;
+}
 .footer-bottom {
 
   text-align: center;
