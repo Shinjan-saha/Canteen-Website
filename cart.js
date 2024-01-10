@@ -267,3 +267,15 @@ function openWhatsapp() {
     window.open("https://wa.me/917428789065?text=" + wTxtEncoded);
   }
 }
+
+
+var icon = document.getElementById("icon");
+icon.onclick = function(){
+  document.body.classList.toggle("dark-theme");
+  if(document.body.classList.contains("dark-theme")){
+    icon.src="sun-icon.png";
+  }
+  else{
+    icon.src="moon-icon.png";
+  }
+}

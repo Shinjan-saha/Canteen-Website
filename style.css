@@ -795,7 +795,8 @@ u {
 
 /*footer section*/
 #footer {
-  background: #20bc7e;
+  /* background: #20bc7e; */
+  background: var(--background-color5);
 
   margin-top: 30px;
   padding: 40px 0;
@@ -1003,6 +1004,7 @@ u {
   --primary-color: #000;
   --primary-color2:#666;
   --primary-color3:black;
+  --background-color5: #20bc7e;
 
 }
 
@@ -1021,6 +1023,7 @@ u {
   --primary-color: #000;
   --primary-color2:white;
   --primary-color3:rgb(36, 67, 193);
+  --background-color5:#2b2929;
  
 }
 
