@@ -431,6 +431,8 @@ u {
   z-index: 2;
   text-align: center;
   transition: all 0.3s ease-in-out 0.1s;
+  border-radius: 20px;
+  padding: 5px;
 }
 
 .food-menu-item:hover::after {
@@ -440,7 +442,7 @@ u {
 
 .food-menu-item:hover .food-description {
   opacity: 1;
-  top: 40%;
+  top: 50%;
   backdrop-filter: blur(10px);
 }
 
