@@ -634,7 +634,8 @@ u {
     height: 4px;
     width: 100%;
     border-radius: 10px;
-    background: #333;
+    /* background: #333; */
+    background: var(--background-color7);
   }
 
   .navbar-container .hamburger-lines .line1 {
@@ -653,7 +654,8 @@ u {
 
   .navbar .menu-items {
     padding-top: 100px;
-    background: #fff;
+    /* background: #fff; */
+    background: var(--background-color6);
     height: 100vh;
     max-width: 300px;
     transform: translate(-150%);
@@ -1005,6 +1007,8 @@ u {
   --primary-color2:#666;
   --primary-color3:black;
   --background-color5: #20bc7e;
+  --background-color6:#fff;
+  --background-color7:#333;
 
 }
 
@@ -1024,6 +1028,8 @@ u {
   --primary-color2:white;
   --primary-color3:rgb(36, 67, 193);
   --background-color5:#2b2929;
+  --background-color6:black;
+  --background-color7:white;
  
 }
 

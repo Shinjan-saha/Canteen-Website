@@ -264,8 +264,10 @@ u {
     display: inline-block;
     width: 100%;
     padding: 2rem 2rem 5rem 2rem;
-    background-color: #e1cb53;
-    color: rgb(35, 35, 33);
+    /* background-color: #e1cb53; */
+    background-color: var(--background-color8);
+    /* color: rgb(35, 35, 33); */
+    color: var(--primary-color5);
     position: relative;
     border: none;
   }
@@ -451,6 +453,10 @@ and (orientation: portrait) {
     border: 1px solid var(--background-color5);
     color: var(--primary-color4);
   }
+  /* #card1{
+    background-color: var(--background-color8);
+    color: var(--primary-color5);
+  } */
   
   :root{
     --background-color1:#e2d9d71d;
@@ -464,6 +470,8 @@ and (orientation: portrait) {
     --background-color4:#fff;
     --background-color5:rgba(0,0,0,.2);
     --primary-color4:black;
+   --background-color8: #e1cb53;
+   --primary-color5: rgb(35, 35, 33);
 
     
   }
@@ -479,5 +487,7 @@ and (orientation: portrait) {
     --background-color4:rgb(32, 29, 29);
     --background-color5:rgb(216, 129, 129);
     --primary-color4:white;
+    --background-color8: rgb(244, 130, 104);
+    --primary-color5:white;
     
   }
