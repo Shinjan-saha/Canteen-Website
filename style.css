@@ -667,6 +667,9 @@ u {
     padding-left: 50px;
     transition: transform 0.5s ease-in-out;
     box-shadow: 5px 0px 10px 0px #aaa;
+    width: 100vw;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
 
   .navbar .menu-items li {
