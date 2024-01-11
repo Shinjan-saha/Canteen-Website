@@ -14,6 +14,8 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color:  var(--background-color4);
+  color:  var(--secondary-color1);
 }
 
 u {
@@ -65,8 +67,10 @@ u {
   box-shadow: 0px 5px 10px 0px #aaa;
   position: fixed;
   width: 100%;
-  background: #fff;
-  color: #000;
+  /* background: #fff; */
+  background: var(--background-color1);
+  /* color: #000; */
+  color: var(--secondary-color2);
   opacity: 0.85;
   height: 60px;
   z-index: 12;
@@ -93,7 +97,8 @@ u {
 
 .menu-items a {
   text-decoration: none;
-  color: #444;
+  /* color: #444; */
+  color: var( --secondary-color3);
   font-weight: 500;
   transition: color 0.3s ease-in-out;
 }
@@ -144,7 +149,9 @@ u {
 
 #about {
   padding: 50px 0;
-  background: #f5f5f7;
+  /* background: #f5f5f7; */
+  background: var( --background-color2);
+  color: var( --secondary-color2);
 }
 
 .about-wrapper {
@@ -158,12 +165,14 @@ u {
 
 #about p {
   font-size: 1.2rem;
-  color: #555;
+  /* color: #555; */
+  color: var( --secondary-color4);
 }
 
 #about .small {
   font-size: 1.2rem;
-  color: #666;
+  /* color: #666; */
+  color: var( --secondary-color5);
   font-weight: 600;
 }
 
@@ -220,7 +229,8 @@ u {
   font-weight: 400;
   margin-bottom: 40px;
   text-transform: uppercase;
-  color: #555;
+  /* color: #555; */
+  color: var(--secondary-color4);
 }
 
 /* .food-container {
@@ -330,7 +340,8 @@ u {
 .prev:hover,
 .next:hover {
 
-  background-color: rgba(0, 0, 0, 0.5);
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  background-color: var( --background-color3);
 }
 
 .fade {
@@ -379,7 +390,8 @@ u {
   text-align: center;
   font-size: 3.4rem;
   font-weight: 400;
-  color: #666;
+  /* color: #666; */
+  color: var(--secondary-color7);
 }
 
 .food-menu-container {
@@ -408,7 +420,7 @@ u {
 .font-title {
   font-size: 1.8rem;
   font-weight: 400;
-  color: #444;
+  color: #444; 
 }
 
 .food-description p {
@@ -624,7 +636,8 @@ u {
     height: 4px;
     width: 100%;
     border-radius: 10px;
-    background: #333;
+    /* background: #333; */
+    background: var(--background-color7);
   }
 
   .navbar-container .hamburger-lines .line1 {
@@ -643,7 +656,8 @@ u {
 
   .navbar .menu-items {
     padding-top: 100px;
-    background: #fff;
+    /* background: #fff; */
+    background: var(--background-color6);
     height: 100vh;
     max-width: 300px;
     transform: translate(-150%);
@@ -785,7 +799,8 @@ u {
 
 /*footer section*/
 #footer {
-  background: #20bc7e;
+  /* background: #20bc7e; */
+  background: var(--background-color5);
 
   margin-top: 30px;
   padding: 40px 0;
@@ -965,4 +980,80 @@ u {
     padding: 0;
   }
 
+}
+
+
+#icon{
+  width:28px;
+  height: 27px;
+  cursor: pointer;
+  margin-left: 22px;
+}
+#icon:hover{
+  transform: scale(1.1);
+}
+
+:root{
+  --background-color1: #fff;
+  --background-color2: #f5f5f7;
+  --background-color3: rgba(0, 0, 0, 0.5);
+  --background-color4:white;
+  --secondary-color1:black;
+  --secondary-color2:#000;
+  --secondary-color3: #444;
+  --secondary-color4:#555;
+  --secondary-color5: #666;
+  --secondary-color6:#000;
+  --secondary-color7:#666;
+  --primary-color: #000;
+  --primary-color2:#666;
+  --primary-color3:black;
+  --background-color5: #20bc7e;
+  --background-color6:#fff;
+  --background-color7:#333;
+
+}
+
+.dark-theme{
+  --background-color1:#000;
+  --background-color2:#161414;
+  --background-color3:white;
+  --background-color4:black;
+  --secondary-color1:white;
+  --secondary-color2:#fff;
+  --secondary-color3:white;
+  --secondary-color4:rgb(225, 117, 80);
+  --secondary-color5:rgb(223, 166, 166);
+  --secondary-color6:#7b5c5c;
+  --secondary-color7:rgb(154, 94, 73);
+  --primary-color: #000;
+  --primary-color2:white;
+  --primary-color3:rgb(36, 67, 193);
+  --background-color5:#2b2929;
+  --background-color6:black;
+  --background-color7:white;
+ 
+}
+
+
+#para{
+  color:var( --secondary-color1) ;
+}
+#salted{
+  /* color:var(--secondary-color6); */
+}
+#pencil{
+  /* color: var(--secondary-color6); */
+}
+.head2{
+  color:var(--primary-color);
+}
+#home{
+  color:var(--primary-color);
+}
+#locate{
+  color:var(--primary-color2);
+}
+.food-titile{
+  color: var(--primary-color3);
 }
