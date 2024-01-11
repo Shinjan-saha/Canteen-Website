@@ -1,4 +1,5 @@
-<div align="center"><img src="./resources/college-logo.jpeg"></div>
+<div align="center"><img src="https://github.com/Sneha123-zudo/Canteen-Website/assets/145490348/33dc8609-6cd0-43ef-aae6-b99e51513794">
+</div>
 
 # <div align="center">Canteen-Website </div>
 
@@ -30,13 +31,13 @@ Whether you're grabbing a quick bite between classes, restocking your study esse
 - FLUTTER
 
 
-<img src="html.png" height="50">
-<img src="css.jpeg" height="50">
-<img src="java.jpg" height="50">
-<img src="C++.png" height="50">
-<img src="dart.png" height="50">
-<img src="cmake.png" height="50">
-<img src="flutter.png" height="50">
+<img src="https://github.com/Sneha123-zudo/Canteen-Website/assets/145490348/9844298c-6310-48de-88b1-75884f799522" height="50">
+<img src="https://github.com/Sneha123-zudo/Canteen-Website/assets/145490348/288a246b-2f82-4254-a7d8-f2ee0b4d261e" height="50">
+<img src="https://github.com/Sneha123-zudo/Canteen-Website/assets/145490348/ea7cbb0a-a15b-4f9e-bd0b-afe1f954a764" height="50">
+<img src="https://github.com/Sneha123-zudo/Canteen-Website/assets/145490348/57e6ef84-0dde-43b4-96d3-c69cda9fb1d7" height="50">
+<img src="https://github.com/Sneha123-zudo/Canteen-Website/assets/145490348/bb113aa4-b8db-4db2-9e1a-c4178e463881" height="50">
+<img src="https://github.com/Sneha123-zudo/Canteen-Website/assets/145490348/46bc7e68-1d63-4f81-b72c-a7e19487e9f2" height="50">
+<img src="https://github.com/Sneha123-zudo/Canteen-Website/assets/145490348/8ee2d3af-79cb-4413-9467-f98952c6cd60" height="50">
 
 ## Overview⭐
 
