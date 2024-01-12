@@ -575,12 +575,86 @@ u {
 /* ....../Location/ ......*/
 #location {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.location-map{
+  display: flex;
+  width:40%;
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-left: 100px;
+  flex-direction: column;
 }
-
+.location-contact{
+   display: flex;
+   width:60%;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   flex-direction: column;
+   margin-left: 200px;
+}
+.name{
+  height:40px;
+  width:100%;
+  font-size: 1rem;
+  color: grey;
+  border: 2px solid grey;
+  border-radius: 12px;
+  padding:  10px 10px;
+  margin: 5px 5px;
+  font-family: Poppins;
+}
+.number{
+  height:40px;
+  width:100%;
+  font-size: 1rem;
+  color: grey;
+  border: 2px solid grey;
+  border-radius: 12px;
+  padding:  10px 10px;
+  margin: 5px 5px;
+  font-family: Poppins;
+}
+.email{
+  height:40px;
+  width:100%;
+  font-size: 1rem;
+  color: grey;
+  border: 2px solid grey;
+  border-radius: 12px;
+  padding:  10px 10px;
+  margin: 5px 5px;
+  font-family: Poppins;
+}
+.doubt{
+  height:190px;
+  width:100%;
+  font-size: 1rem;
+  color: grey;
+  border: 2px solid grey;
+  border-radius: 12px;
+  padding:  10px 10px;
+  margin: 5px 5px;
+  font-family: Poppins;
+}
+.submit{
+  height:50px;
+  width:200px;
+  font-size: 1.25rem;
+  color: white;
+  border: 2px solid #20bc7e;
+  border-radius: 22px;
+  padding:  10px 10px;
+  font-family: Poppins;
+  margin: 5px 5px;
+  background-color: #20bc7e;
+}
+.submit:hover{
+  background-color: #16a083;
+}
 #location p {
   margin-top: 3px;
 }
@@ -697,7 +771,50 @@ u {
   .navbar-container input[type="checkbox"]:checked~.hamburger-lines .line3 {
     transform: rotate(-35deg);
   }
+  #location{
+    display: flex;
+    flex-direction: column;
+  }
+  .location-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: end;
+    margin-left: 140px;
+  }
+  .location-map{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: end;
+    margin-left: 175px;
+    
+  }
+  .location-map iframe{
+    margin-bottom: 5px;
+  }
 
+  .name{
+    margin: 5px 5px;
+  }
+  .email{
+    margin: 5px 5px;
+  }
+  .number{
+    margin: 5px 5px;
+  }
+  .doubt{
+    margin: 5px 5px;
+  }
+  .submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5px 5px;
+  }
   /* ......./ food /......... */
 
 
@@ -768,8 +885,67 @@ u {
     font-size: 1.8rem;
     font-weight: 500;
   }
-}
+  #location{
+    display: flex;
+    flex-direction: column;
+  }
+  .location-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 60px;
+  }
+  .location-map{
+    display: flex;
+    width:75%;
+    flex-direction: column;
+    margin-left: 60px;
+  
+  }
+  .location-map p{
+    font-size: 0.8rem;
+  }
+  .location-map iframe{
+    margin-bottom: 5px;
+  }
 
+  .name{
+    height:25px;
+    margin: 5px 5px;
+  border-radius: 10px;
+  font-size: 0.8rem;
+}
+ .email{
+    height:25px;
+    margin: 5px 5px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+  }
+  .number{
+    height:25px;
+    margin: 5px 5px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+  }
+  .doubt{
+    height:125px;
+    margin: 5px 5px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+  }
+  .submit{
+    height:40px;
+    width:150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5px 5px;
+  }
+
+}
 
 @media (min-width: 769px) and (max-width: 1200px) {
   .img-container h3 {
@@ -778,6 +954,50 @@ u {
 
   .img-container .btn {
     font-size: 0.7rem;
+  }
+  #location{
+    display: flex;
+    flex-direction: column;
+  }
+  .location-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: end;
+    margin-left: 140px;
+  }
+  .location-map{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: end;
+    margin-left: 175px;
+    
+  }
+  .location-map iframe{
+    margin-bottom: 5px;
+  }
+
+  .name{
+    margin: 5px 5px;
+  }
+  .email{
+    margin: 5px 5px;
+  }
+  .number{
+    margin: 5px 5px;
+  }
+  .doubt{
+    margin: 5px 5px;
+  }
+  .submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5px 5px;
   }
 }
 
