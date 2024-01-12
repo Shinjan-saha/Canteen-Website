@@ -1,4 +1,4 @@
-<div align="center"><img src="https://github.com/Sneha123-zudo/Canteen-Website/assets/145490348/33dc8609-6cd0-43ef-aae6-b99e51513794">
+<div align="center"><img src="https://github.com/Sneha123-zudo/Canteen-Website/assets/145490348/16996d07-a9c4-43bd-90a0-5c116de26367">
 </div>
 
 # <div align="center">Canteen-Website </div>
