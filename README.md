@@ -3,6 +3,28 @@
 
 # <div align="center">Canteen-Website </div>
 
+<div align="center">
+ <p>
+
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=Shinjan-saha%2FCanteen-Website%20&countColor=%23263759&style=flat)
+![GitHub forks](https://img.shields.io/github/forks/Shinjan-saha/Canteen-Website)
+![GitHub Repo stars](https://img.shields.io/github/stars/Shinjan-saha/Canteen-Website)
+![GitHub contributors](https://img.shields.io/github/contributors/Shinjan-saha/Canteen-Website)
+![GitHub last commit](https://img.shields.io/github/last-commit/Shinjan-saha/Canteen-Website)
+
+![GitHub repo size](https://img.shields.io/github/repo-size/Shinjan-saha/Canteen-Website)
+
+![Github](https://img.shields.io/github/license/Shinjan-saha/Canteen-Website)
+![GitHub issues](https://img.shields.io/github/issues/Shinjan-saha/Canteen-Website)
+![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/Shinjan-saha/Canteen-Website)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/Shinjan-saha/Canteen-Website)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/Shinjan-saha/Canteen-Website)
+
+ </p>
+ </div>
+
 
 Welcome to the Canteen-Website , where we cater to all your needs.From satisfying main courses to refreshing beverages, essential stationery, printing services, and delightful ice cream treats – we've got it all under one roof.
 The College Canteen is not just a place to eat; it's your all-in-one destination for convenience and enjoyment!
