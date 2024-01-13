@@ -1071,6 +1071,10 @@ u {
   height: auto;
 }
 
+.cart {
+  text-align: center;
+}
+
 /*footer section*/
 #footer {
   /* background: #20bc7e; */
