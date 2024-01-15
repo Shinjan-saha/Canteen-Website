@@ -107,6 +107,7 @@ u {
   margin-right: 10px;
 }
 
+
 .menu-items li {
   list-style: none;
   margin-left: 1.5rem;
@@ -121,7 +122,6 @@ u {
   font-weight: 500;
   transition: color 0.3s ease-in-out;
 }
-
 
 .logo {
   order: 1;
