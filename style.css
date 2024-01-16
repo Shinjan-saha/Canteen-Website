@@ -704,12 +704,18 @@ u {
   color: white;
   cursor: pointer;
   padding: 15px;
-  border-radius: 4px;
+  border-radius: 50%;
+}
+
+.fas {
+  color: #fff;
 }
 
 #myBtn:hover {
   background-color: #555;
+  color: #fff !important;
 }
+
 
 /* ......../ media query /.......... */
 
