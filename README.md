@@ -1,7 +1,4 @@
-<div align="center"><img src="https://github.com/Sneha123-zudo/Canteen-Website/assets/145490348/16996d07-a9c4-43bd-90a0-5c116de26367">
-</div>
-
-# <div align="center">Canteen-Website </div>
+# `<div align="center">`Canteen-Website `</div>`
 
 <div align="center">
  <p>
@@ -22,9 +19,8 @@
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/Shinjan-saha/Canteen-Website)
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/Shinjan-saha/Canteen-Website)
 
- </p>
+</p>
  </div>
-
 
 Welcome to the Canteen-Website , where we cater to all your needs.From satisfying main courses to refreshing beverages, essential stationery, printing services, and delightful ice cream treats – we've got it all under one roof.
 The College Canteen is not just a place to eat; it's your all-in-one destination for convenience and enjoyment!
@@ -44,14 +40,14 @@ Our mission is to cater to your diverse needs, offering not only delicious main 
 Whether you're grabbing a quick bite between classes, restocking your study essentials, or treating yourself to a sweet indulgence, the  Canteen-Website is your all-in-one destination on campus. With the option to order online for swift service or visit our physical location, we strive to make every aspect of your college life more convenient.
 
 ## Technology Used🚀
+
 - HTML
-- CSS 
+- CSS
 - JAVASCRIPT
 - C++
 - DART
 - CMAKE
 - FLUTTER
-
 
 <img src="https://github.com/Sneha123-zudo/Canteen-Website/assets/145490348/9844298c-6310-48de-88b1-75884f799522" height="50">
 <img src="https://github.com/Sneha123-zudo/Canteen-Website/assets/145490348/288a246b-2f82-4254-a7d8-f2ee0b4d261e" height="50">
@@ -63,22 +59,22 @@ Whether you're grabbing a quick bite between classes, restocking your study esse
 
 ## Overview⭐
 
-The  Canteen-Website is a student-centric online platform catering to the diverse needs of college students. 
+The  Canteen-Website is a student-centric online platform catering to the diverse needs of college students.
 
 ##### Features :
+
 - Explore a variety of main courses, refreshing beverages, essential stationery, convenient printing services, and delightful ice cream treats.
 - Enjoy the convenience of placing orders online, ensuring quick and efficient service for your busy academic schedule
 - The College Canteen is not just about food. It's a one-stop-shop, providing students with essential stationery and printing services, eliminating the need to visit multiple places.
 
 ## Visit the Website Over here
+
 [Click-Here!](https://canteen-website-shinjan.vercel.app/)
 
-## Download the App Over here 
+## Download the App Over here
 
 [Click-Here!](https://github.com/Shinjan-saha/Canteen-Website/blob/main/canapp/canapp/App-release/app-release.apk)
 
-
 ## Contribution Guidelines 📑
 
-[Click for Rules](https://github.com/Shinjan-saha/Canteen-Website/blob/main/CONTRIBUTE.md) 
-
+[Click for Rules](https://github.com/Shinjan-saha/Canteen-Website/blob/main/CONTRIBUTE.md)
