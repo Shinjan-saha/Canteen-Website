@@ -11,11 +11,43 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="./resources/Yellow Abstract Cooking Fire Free Logo.png" />
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+    <script>
+        window.onload = function(){
+            document.getElementById("preloader").style.display= "none";
+            document.getElementById("main-content").style.display= "block";
+        }
+        $(window).load(function(){
+            $('#preloader').fadeOut();
+            $('#main-content').delay(100000).fadeOut('slow');
+        }),1000000;
+    </script>
 </head>
 
 <body>
+    <div id="preloader">      
+<h1>Cooking in progress..</h1>
+<div id="cooking">
+  <div class="bubble"></div>
+  <div class="bubble"></div>
+  <div class="bubble"></div>
+  <div class="bubble"></div>
+  <div class="bubble"></div>
+  <div id="area">
+    <div id="sides">
+      <div id="pan"></div>
+      <div id="handle"></div>
+    </div>
+    <div id="pancake">
+      <div id="pastry"></div>
+    </div>
+  </div>
+</div>
+</div>
+  
 
-
+<div id="main-content">
     <nav class="navbar">
         <div class="navbar-container">
             <input type="checkbox" name="" id="">
@@ -31,6 +63,7 @@
                 <li><a href="#food">Services</a></li>
                 <li><a href="#food-menu">Menu</a></li>
                 <li><a href="#location">Location</a></li>
+                
             </ul>
         </div>
         <div class="light_dark">
@@ -582,6 +615,11 @@
             <h2>Shinjan &copy; all rights reserved</h2>
         </div>
     </footer>
+</div>
+   
+
+
+
 
     <!-- .................../ JS Code for smooth scrolling /...................... -->
 
@@ -590,8 +628,10 @@
     <script src="app.js"></script>
     <script src="script.js"></script>
 
-</html>
+  
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
 
 </body>
-
 </html>

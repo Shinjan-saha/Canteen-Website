@@ -8,3 +8,9 @@ icon.onclick = function(){
     icon.src="moon-icon.png";
   }
 }
+var preloader = document.getElementById('preloader');
+
+function myFunction()
+{
+    preloader.style.display= 'none';
+}
