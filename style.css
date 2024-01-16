@@ -8,6 +8,12 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 
+  var(--scroll-padding,5rem);
+}
+
 .html {
   font-size: 62.5%;
 }
@@ -16,6 +22,7 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: var(--background-color4);
   color: var(--secondary-color1);
+  position: relative;
 }
 
 u {
@@ -592,7 +599,7 @@ u {
 #location {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .location-map {
@@ -610,12 +617,17 @@ u {
   width: 60%;
   justify-content: center;
   align-items: center;
-  text-align: center;
   flex-direction: column;
   margin-left: 200px;
 }
 
-.name {
+.errormsg {
+  padding-left: 10px;
+  color: red;
+  font-weight: 500;
+}
+
+.name1 {
   height: 40px;
   width: 100%;
   font-size: 1rem;
@@ -687,6 +699,40 @@ u {
 #location iframe {
   margin-top: 3px;
 }
+
+/* Scroll back button */
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.myBtn1 {
+  color: #000000 !important;
+  background-color: #fff !important;
+}
+
+/* .fas {
+  color: #fff;
+} */
+
+.fas1 {
+  color: black !important;
+}
+
+
+
 
 /* ......../ media query /.......... */
 
@@ -828,7 +874,7 @@ u {
     margin-bottom: 5px;
   }
 
-  .name {
+  .name1 {
     margin: 5px 5px;
   }
 
@@ -953,7 +999,7 @@ u {
     margin-bottom: 5px;
   }
 
-  .name {
+  .name1 {
     height: 25px;
     margin: 5px 5px;
     border-radius: 10px;
@@ -1030,7 +1076,7 @@ u {
     margin-bottom: 5px;
   }
 
-  .name {
+  .name1 {
     margin: 5px 5px;
   }
 
@@ -1069,6 +1115,10 @@ u {
 .about-img img {
   max-width: 100%;
   height: auto;
+}
+
+.cart {
+  text-align: center;
 }
 
 /*footer section*/

@@ -279,3 +279,13 @@ icon.onclick = function(){
     icon.src="moon-icon.png";
   }
 }
+
+const navigation =
+document.querySelector(".primary-navigation");
+const navigationheight = 
+navigation.offsetHeight;
+document.documentElement.style.setProperty(
+  "--scroll-padding",
+  navigationheight + "px"
+  
+);
