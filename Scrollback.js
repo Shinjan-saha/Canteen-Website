@@ -1,3 +1,4 @@
+
 // Get the button
 let mybutton = document.getElementById("myBtn");
 
@@ -12,8 +13,10 @@ function scrollFunction() {
   }
 }
 
-// When the user clicks on the button, scroll to the top of the document
+// When the user clicks on the button, scroll to the top of the document with smooth effect
 function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
 }
