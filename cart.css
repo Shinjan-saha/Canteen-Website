@@ -965,6 +965,8 @@ hr {
   --background-color5: #20bc7e;
   --background-color6: #fff;
   --background-color7: #333;
+  --new-color:rgb(124, 5, 5);
+  --new-color1:rgb(45, 42, 42);
 
 }
 
@@ -986,6 +988,8 @@ hr {
   --background-color5: #2b2929;
   --background-color6: black;
   --background-color7: white;
+  --new-color:rgb(223, 107, 107);
+  --new-color1:whitesmoke;
 
 }
 
@@ -1016,4 +1020,76 @@ hr {
 
 .food-titile {
   color: var(--primary-color3);
+}
+
+
+#abtus .aboutus h1 {
+  text-align: center;
+  margin:  auto;
+}
+#abtus .aboutus h1 span {
+  font-size: 4.5rem;
+  /* color: rgb(124, 5, 5); */
+  color: var(--new-color);
+  padding: 5px 5px;
+  font-family: "Roboto";
+}
+hr{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.abt_text{
+  display: flex;
+  margin: 0px 5%;
+  margin-bottom: -60px;
+  /* color: black; */
+  color: var(--new-color1);
+  width: 90%;
+}
+.cart_online{
+  height: 270px;
+  width: 40%;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+.para_abt{
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  line-height:24px ;
+  width: 60%;
+}
+
+@media(max-width:430px){
+  .abt_text{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+}
+.cart_online{
+  width: 100%;
+}
+.para_abt{
+  
+  font-size: 15px;
+  width: 80%;
+}
+}
+@media(max-width:768px){
+  .abt_text{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+}
+.cart_online{
+  width: 70%;
+}
+.para_abt{
+  
+  font-size: 18px;
+  width: 80%;
+}
+
 }
