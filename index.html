@@ -529,10 +529,13 @@
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div class="location-contact">
-            <form action="https://formsubmit.co/shinjansaha02@gmail.com" method="POST">
-                <input type="text" class="name" placeholder="Your Name">
-                <input type="number" class="number" placeholder="Your Number">
-                <input type="text" class="email" placeholder="Your email">
+            <form onsubmit="return validateForm()" action="https://formsubmit.co/shinjansaha02@gmail.com" method="POST">
+                <input type="text" class="name1" placeholder="Your Name" id="name" name="name" required>
+                <p id="errormsg1" class="errormsg"></p>
+                <input type="tel" class="number" placeholder="Your Number" id="phone" name="phone" required>
+                <p id="errormsg3" class="errormsg"></p>
+                <input type="email erroe3" class="email" placeholder="Your email" id="email" required>
+                <p id="errormsg2" class="errormsg" required></p>
                 <textarea class="doubt" rows="5" placeholder="Ask any question"></textarea>
                 <button class="submit">Submit</button>
             </form>
@@ -588,6 +591,7 @@
 
     <!-- .................../ JS Code for smooth scrolling /...................... -->
     <script src="Scrollback.js"></script>
+    <script src="FormValidation.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="Carousel.js"></script>
     <script src="app.js"></script>

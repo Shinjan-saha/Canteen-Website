@@ -597,7 +597,7 @@ u {
 #location {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .location-map {
@@ -615,12 +615,17 @@ u {
   width: 60%;
   justify-content: center;
   align-items: center;
-  text-align: center;
   flex-direction: column;
   margin-left: 200px;
 }
 
-.name {
+.errormsg {
+  padding-left: 10px;
+  color: red;
+  font-weight: 500;
+}
+
+.name1 {
   height: 40px;
   width: 100%;
   font-size: 1rem;
@@ -867,7 +872,7 @@ u {
     margin-bottom: 5px;
   }
 
-  .name {
+  .name1 {
     margin: 5px 5px;
   }
 
@@ -992,7 +997,7 @@ u {
     margin-bottom: 5px;
   }
 
-  .name {
+  .name1 {
     height: 25px;
     margin: 5px 5px;
     border-radius: 10px;
@@ -1069,7 +1074,7 @@ u {
     margin-bottom: 5px;
   }
 
-  .name {
+  .name1 {
     margin: 5px 5px;
   }
 
