@@ -10,8 +10,8 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding: 
-  var(--scroll-padding,5rem);
+  scroll-padding:
+    var(--scroll-padding, 5rem);
 }
 
 .html {
@@ -723,9 +723,6 @@ u {
   background-color: #fff !important;
 }
 
-/* .fas {
-  color: #fff;
-} */
 
 .fas1 {
   color: black !important;
@@ -1116,9 +1113,10 @@ u {
 .about-img img {
   max-width: 100%;
   height: auto;
-  transition: ease-in-out box-shadow 0.4s ;
+  transition: ease-in-out box-shadow 0.4s;
 }
-.about-img img:hover{
+
+.about-img img:hover {
   box-shadow: 0 0 20px rgba(18, 18, 18, 0.7);
 }
 

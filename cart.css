@@ -899,7 +899,7 @@ hr {
 }
 
 .fas1 {
-  color: black;
+  color: black !important;
 }
 
 /* End */
