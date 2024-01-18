@@ -1112,9 +1112,14 @@ u {
   text-align: center;
 }
 
+
 .about-img img {
   max-width: 100%;
   height: auto;
+  transition: ease-in-out box-shadow 0.4s ;
+}
+.about-img img:hover{
+  box-shadow: 0 0 20px rgba(18, 18, 18, 0.7);
 }
 
 .cart {
