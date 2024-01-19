@@ -600,26 +600,28 @@ u {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .location-map {
   display: flex;
-  width: 40%;
+  /* width: 40%; */
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-left: 100px;
+  /* margin-left: 100px; */
   flex-direction: column;
 }
 
 .location-contact {
   display: flex;
-  width: 60%;
+  /* width: 60%; */
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-left: 200px;
+  /* margin-left: 200px; */
 }
+
 
 .errormsg {
   padding-left: 10px;
@@ -853,8 +855,8 @@ u {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: end;
-    margin-left: 140px;
+    /* text-align: end; */
+    /* margin-left: 140px; */
   }
 
   .location-map {
@@ -862,8 +864,8 @@ u {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: end;
-    margin-left: 175px;
+    /* text-align: end; */
+    /* margin-left: 175px; */
 
   }
 
@@ -955,7 +957,7 @@ u {
 
   .logo {
     position: absolute;
-    top: 06px;
+    top: 6px;
     right: 15px;
     font-size: 3rem;
   }
@@ -977,16 +979,18 @@ u {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-left: 60px;
+    /* margin-left: 60px; */
   }
 
   .location-map {
     display: flex;
-    width: 75%;
+    /* width: 75%; */
     flex-direction: column;
-    margin-left: 60px;
+    /* margin-left: 60px; */
 
   }
+
+
 
   .location-map p {
     font-size: 0.8rem;
@@ -996,26 +1000,7 @@ u {
     margin-bottom: 5px;
   }
 
-  .name1 {
-    height: 25px;
-    margin: 5px 5px;
-    border-radius: 10px;
-    font-size: 0.8rem;
-  }
 
-  .email {
-    height: 25px;
-    margin: 5px 5px;
-    border-radius: 10px;
-    font-size: 0.8rem;
-  }
-
-  .number {
-    height: 25px;
-    margin: 5px 5px;
-    border-radius: 10px;
-    font-size: 0.8rem;
-  }
 
   .doubt {
     height: 125px;
@@ -1034,6 +1019,30 @@ u {
     margin: 5px 5px;
   }
 
+  .location-contact form {
+    width: 90%;
+  }
+
+  .name1 {
+    height: 40px;
+    /* margin: 5px 5px; */
+    border-radius: 10px;
+    font-size: 0.8rem;
+  }
+
+  .email {
+    height: 40px;
+    /* margin: 5px 5px; */
+    border-radius: 10px;
+    font-size: 0.8rem;
+  }
+
+  .number {
+    height: 40px;
+    /* margin: 5px 5px; */
+    border-radius: 10px;
+    font-size: 0.8rem;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1200px) {
@@ -1055,18 +1064,23 @@ u {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: end;
-    margin-left: 140px;
+    text-align: center;
+    /* margin-left: 140px; */
   }
 
   .location-map {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: end;
-    margin-left: 175px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: center; */
+    margin: auto;
+    /* margin-left: 175px; */
 
+  }
+
+  .para {
+    text-align: left;
   }
 
   .location-map iframe {
@@ -1104,6 +1118,15 @@ u {
   }
 }
 
+@media(max-width:350px) {
+  .location-map {
+    width: 100%;
+  }
+
+  .location-map iframe {
+    width: 100% !important;
+  }
+}
 
 .about-img {
   text-align: center;
