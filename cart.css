@@ -10,6 +10,9 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding:
+    var(--scroll-padding, 5rem);
+
 }
 
 .html {
@@ -90,6 +93,11 @@ u {
   padding: 0 !important;
   display: flex;
   flex-wrap: nowrap !important;
+
+}
+
+.seperator {
+  height: 90px;
 }
 
 .navbar-container {
@@ -897,7 +905,7 @@ hr {
 }
 
 .fas1 {
-  color: black;
+  color: black !important;
 }
 
 /* End */

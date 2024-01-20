@@ -87,7 +87,7 @@ $(document).ready(function () {
           scrollTop: $("#momos").offset().top,
         },
         800,
-        function () {}
+        function () { }
       );
     } else if ($(this)[0].className.search("chinese productClicked") > -1) {
       $("#chinese").show().siblings("div").hide();
@@ -97,7 +97,7 @@ $(document).ready(function () {
           scrollTop: $("#chinese").offset().top,
         },
         800,
-        function () {}
+        function () { }
       );
     } else if ($(this)[0].className.search("beverages productClicked") > -1) {
       $("#beverages").show().siblings("div").hide();
@@ -107,7 +107,7 @@ $(document).ready(function () {
           scrollTop: $("#beverages").offset().top,
         },
         800,
-        function () {}
+        function () { }
       );
     }
   });
@@ -121,11 +121,11 @@ $(document).ready(function () {
       .first()
       .text()
       .trim();
-    let singleFoodAmount= quantity.parent().siblings("div").children().last().text();
+    let singleFoodAmount = quantity.parent().siblings("div").children().last().text();
     let numericPart = singleFoodAmount.replace(/[^\d.]/g, '');
     if (!isNaN(numericPart)) {
       singleFoodAmount = parseFloat(numericPart);
-    } 
+    }
     let isVeg = quantity
       .parent()
       .siblings("div")
@@ -217,14 +217,14 @@ $(document).ready(function () {
     $(".shoppingCartAfter").text(food.length);
     if (food.length === 0) {
       totalAmount = 0;
-    }else {
+    } else {
       totalAmount = totalAmount + singleFoodAmount;
     }
     $(".totalAmountDiv").empty();
     $(".totalAmountDiv").append(
       '<span class="totalAmountText">TOTAL AMOUNT : </span><br/>' +
-        '<i class="fas fa-rupee-sign"></i> ' +
-        totalAmount
+      '<i class="fas fa-rupee-sign"></i> ' +
+      totalAmount
     );
   }
 });
@@ -270,12 +270,26 @@ function openWhatsapp() {
 
 
 var icon = document.getElementById("icon");
-icon.onclick = function(){
+icon.onclick = function () {
   document.body.classList.toggle("dark-theme");
-  if(document.body.classList.contains("dark-theme")){
-    icon.src="sun-icon.png";
+  if (document.body.classList.contains("dark-theme")) {
+    icon.src = "sun-icon.png";
+    btn.classList.add("myBtn1");
+    fs.classList.add("fas1");
   }
-  else{
-    icon.src="moon-icon.png";
+  else {
+    icon.src = "moon-icon.png";
+    btn.classList.remove("myBtn1");
+    fs.classList.remove("fas1");
   }
 }
+
+const navigation =
+  document.querySelector(".primary-navigation");
+const navigationheight =
+  navigation.offsetHeight;
+document.documentElement.style.setProperty(
+  "--scroll-padding",
+  navigationheight + "px"
+
+);
