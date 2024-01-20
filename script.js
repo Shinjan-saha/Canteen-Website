@@ -13,8 +13,16 @@ icon.onclick = function () {
     btn.classList.remove("myBtn1");
     fs.classList.remove("fas1");
   }
-  // Smooth scroll back to the top
 
+}
+var preloader = document.getElementById('preloader');
+
+function myFunction()
+{
+    preloader.style.display= 'none';
+}
+
+  // Smooth scroll back to the top
 }
 
 const navigation =
@@ -26,3 +34,4 @@ document.documentElement.style.setProperty(
   navigationheight + "px"
   
 );
+
