@@ -955,11 +955,17 @@ u {
   /* .img-container {
     margin: 0;
   } */
+  .slideshow-container{
+    height: 30vh;
+  }
 }
 
 @media (max-width: 500px) {
   html {
     font-size: 65%;
+  }
+  .slideshow-container{
+    height: 30vh;
   }
 
   .navbar .menu-items li {
@@ -1458,4 +1464,27 @@ u {
 .food-titile {
   color: white;
   text-shadow: 0 0 14px white;
+}
+.slideshow-container{
+  height: 60vh;
+}
+.mySlides{
+  height: 100%;
+}
+.img-container{
+  height: 100%;
+}
+.img-container img{
+  height: 100%;
+  object-fit: cover;
+}
+@media screen and (max-width:768px) {
+
+  .slideshow-container{
+    height: 30vh;
+  }
+  
+}
+.food-menu-item{
+  align-items: center;
 }
