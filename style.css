@@ -488,7 +488,7 @@ u {
   justify-content: center;
   color: white !important;
   background: rgb(0, 0, 0);
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 32, 162, 1) 100%);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(44, 246, 3) 100%);
   text-shadow: 0 0 14px white;
 }
 
@@ -506,7 +506,7 @@ u {
   justify-content: center;
   color: white !important;
   background: rgb(0, 0, 0);
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 32, 162, 1) 100%);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(44, 246, 3) 100%);
   text-shadow: 0 0 14px white;
   transition: all 0.3s ease-in-out 0.1s;
 }
