@@ -44,10 +44,9 @@ Whether you're grabbing a quick bite between classes, restocking your study esse
 - HTML
 - CSS
 - JAVASCRIPT
-- C++
-- DART
-- CMAKE
 - FLUTTER
+
+
 
 
 
@@ -60,6 +59,10 @@ The  Canteen-Website is a student-centric online platform catering to the divers
 - Explore a variety of main courses, refreshing beverages, essential stationery, convenient printing services, and delightful ice cream treats.
 - Enjoy the convenience of placing orders online, ensuring quick and efficient service for your busy academic schedule
 - The College Canteen is not just about food. It's a one-stop-shop, providing students with essential stationery and printing services, eliminating the need to visit multiple places.
+
+## Admin of the Project
+
+<img src="./img/project-admin.jpg">
 
 ## Visit the Website Over here
 
